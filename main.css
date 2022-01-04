@@ -1,0 +1,560 @@
+:root {
+    --gold: #C8A35F;
+    --dark: #2F343A;
+    --white: #FFFFFF;
+    --svetlydark: #393F47;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+#wrapper {
+    overflow: hidden;
+    min-width: 1615px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.top-line {
+    width: 1920px;
+    height: 45px;
+    background: var(--gold);
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.top_overall {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-linelang {
+    width: 82px;
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language_link {
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.language_link:hover {
+    color: var(--white);
+    opacity: 1;
+}
+
+.lang--active {
+    color: var(--white);
+    opacity: 1;
+}
+
+.mail {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header {
+    height: 87px;
+    width: 1920px;
+    background: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_line {
+    width: 1110px;
+    height: 46px;
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.frame2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 46px;
+}
+
+.razdelitel {
+    width: 0px;
+    height: 46px;
+    border: 1px solid #F2F2F2;
+}
+
+.metka_nashioffici {
+    width: 190px;
+    height: 46px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.metka {
+    width: 55px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nashi_offici {
+    color: var(--white);
+    width: 117px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 748px;
+    height: 46px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.submain_menu {
+    width: 353px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_screen {
+    width: 1920px;
+}
+
+.submain_menu_link {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.first_screen {
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+}
+
+.mouse {
+    position: absolute;
+    margin-top: 553px;
+}
+
+.gruzovye_perevozki {
+    position: absolute;
+    width: 920px;
+    height: 245px;
+    top: 282px;
+    border: 1px solid #C8A35F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /*хз*/
+    align-items: center;
+
+}
+
+.gruzovye_perevozki_word {
+    font-weight: bold;
+    height: 59px;
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.gryzovye_perevozki_opisanie_word {
+    width: 777px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    height: 51px;
+}
+
+.services {
+    width: 1920px;
+    height: 561px;
+    background: var(--svetlydark);
+    position: relative;
+
+
+
+}
+
+.fongrey {
+    position: absolute;
+    width: 410px;
+    height: 561px;
+    background: var(--dark);
+    margin-left: 755px;
+}
+
+.blok1 {
+    position: absolute;
+    width: 1110px;
+    height: 321px;
+    color: var(--white);
+    top: 120px;
+    left: 405px;
+    display: flex;
+}
+
+.part1 {
+    width: 445px;
+
+}
+
+.line1 {
+    width: 90px;
+    height: 6px;
+    background: var(--gold);
+
+}
+
+.gryzoperevozki_po_evrope_word {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 445px;
+    height: 86px;
+    margin-top: 40px;
+}
+
+.gryzoperevozki_po_evrope_opisanie_word {
+    width: 445px;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.button {
+    width: 220px;
+    height: 55px;
+    background: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+.part2 {
+    width: 635px;
+    margin-left: 30px;
+    display: flex;
+
+}
+
+.navigation {
+    height: 295px;
+    width: 160px;
+    text-transform: uppercase;
+
+
+
+}
+
+.strelkavvpered {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.strelkanazad {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 272px;
+    text-decoration: none;
+}
+
+.strelkavvpered img {
+    transform: rotate(180deg);
+}
+
+.vperednazad_word {
+    color: var(--gold);
+
+}
+
+.greyfones {
+    width: 1920px;
+    height: 1346px;
+    background: var(--dark);
+
+}
+
+.about_info {
+    height: 1346px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.yslugi {
+    width: 1110px;
+    height: 482px;
+}
+
+.about_company {
+    width: 1110px;
+    height: 482px;
+
+}
+
+.yslugi_word {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 445px;
+    height: 86px;
+    margin-top: 40px;
+}
+
+.aviaperevozki_bloks {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1135px;
+    height: 360px;
+}
+
+.aviaperevozki_overall_block {
+    width: 275px;
+    height: 180px;
+    border: 0.25px solid var(--dark);
+    background: var(--svetlydark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.aviaperevozki_word {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.aviaperevozki_overall_block--active {
+    background: var(--gold);
+}
+
+.about_company {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 482px;
+
+}
+
+.fortemnyfon {
+    position: absolute;
+    display: flex;
+    width: 1100px;
+    height: 482px;
+    align-items: center;
+    justify-content: center;
+}
+
+.temnyfon2 {
+    position: absolute;
+    width: 410px;
+    height: 482px;
+    z-index: 1;
+    background: #393F47;
+}
+
+.part1about_comp {
+    width: 445px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+}
+
+.line2 {
+    width: 90px;
+    height: 6px;
+    background: var(--gold);
+    margin-top: 80px;
+
+}
+
+.about_company_word {
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about_company_word_text {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 23px;
+}
+
+.part2about_comp {
+    width: 600px;
+    height: 482px;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+
+.fivebloks_ul {
+    width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about_company_blocks {
+    width: 200px;
+    height: 160px;
+    background: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zaglavny {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.textline1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+.textline2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: black;
+    margin-top: 5%;
+}
+
+.maps {
+    height: 450px;
+}
+
+.footer {
+    height: 161px;
+    width: 1920px;
+    background: var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.complogofot {
+    margin-right: 30px;
+}
+
+.adres {
+    width: 291px;
+    height: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    margin-right: 85px;
+}
+
+.fiz {
+    margin-bottom: 10px;
+}
+
+.mailfooter {
+    color: black;
+    text-decoration: none;
+}
+
+.number {
+    width: 291px;
+    height: 33px;
+    margin-right: 45px;
+    color: white;
+}
+
+.tel1 {
+    margin-bottom: 10px;
+}
+
+.razrab {
+    text-decoration: underline;
+
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        min-width: 10px;
+        width: 1920px;
+    }
+}
