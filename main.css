@@ -7,8 +7,7 @@
 
 html,
 body {
-    width: 100%;
-    
+    height: 100%;
 
 }
 
@@ -17,15 +16,11 @@ body {
     font-style: normal;
     font-weight: normal;
     height: 100%;
-    width: 100%;
+    overflow-x: hidden;
     min-width: 1920px;
-    overflow: hidden;
+
 }
 
-.wrapper {
-    margin: 0 auto;
-    padding: 0px 0px;
-}
 ul {
     margin: 0;
     padding: 0;
@@ -36,7 +31,7 @@ ul>li {
 }
 
 .top-line {
-    
+    width: 1920px;
     height: 45px;
     background: var(--gold);
     font-size: 12px;
@@ -85,7 +80,7 @@ ul>li {
 
 .header {
     height: 87px;
-
+    width: 1920px;
     background: var(--dark);
     display: flex;
     justify-content: center;
@@ -156,6 +151,9 @@ ul>li {
     justify-content: space-between;
 }
 
+.first_screen {
+    width: 1920px;
+}
 
 .submain_menu_link {
     text-decoration: none;
@@ -207,6 +205,7 @@ ul>li {
 }
 
 .services {
+    width: 1920px;
     height: 561px;
     background: var(--svetlydark);
     position: relative;
@@ -316,6 +315,7 @@ ul>li {
 }
 
 .greyfones {
+    width: 1920px;
     height: 1346px;
     background: var(--dark);
 
@@ -323,6 +323,7 @@ ul>li {
 
 .about_info {
     height: 1346px;
+    width: 1920px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -518,6 +519,7 @@ ul>li {
 
 .footer {
     height: 161px;
+    width: 1920px;
     background: var(--gold);
     display: flex;
     align-items: center;
@@ -562,5 +564,13 @@ ul>li {
 
 .razrab {
     text-decoration: underline;
+
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        min-width: 10px;
+        width: 1920px;
+    }
 }
 
