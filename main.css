@@ -15,15 +15,14 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    height: 100%;
 
 }
 
-#wrapper {
+.wrapper {
     overflow: hidden;
-    min-width: 1615px;
+    min-width: 1440px;
 }
-
-
 ul {
     margin: 0;
     padding: 0;
@@ -308,6 +307,9 @@ ul>li {
 .strelkavvpered img {
     transform: rotate(180deg);
 }
+.strelkanazad img {
+    margin-right: 15px;
+}
 
 .vperednazad_word {
     color: var(--gold);
@@ -360,6 +362,7 @@ ul>li {
 }
 
 .aviaperevozki_overall_block {
+    fill: white;
     width: 275px;
     height: 180px;
     border: 0.25px solid var(--dark);
@@ -375,13 +378,27 @@ ul>li {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    
 }
-
-
+.foon{
+    border-radius: 50em;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+}
 .aviaperevozki_overall_block--active {
     background: var(--gold);
+    
 }
-
+.aviaperevozki_overall_block--active .foon{
+    z-index: 2;
+    fill: black;
+    background: white;
+    }
 .about_company {
     display: flex;
     justify-content: space-between;
@@ -552,9 +569,3 @@ ul>li {
 
 }
 
-@media (max-width: 768px) {
-    .wrapper {
-        min-width: 10px;
-        width: 1920px;
-    }
-}
